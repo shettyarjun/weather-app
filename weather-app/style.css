@@ -63,7 +63,7 @@ color: rgb(255, 248, 248);
 }
 
 .card{
-    background:linear-gradient(180deg, rgba(0, 0, 255, 0.39),rgba(255, 77, 0, 0.745));
+    background:linear-gradient(180deg, white,red);
     padding: 40px;
     border-radius: 20px;
      display: grid;

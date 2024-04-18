@@ -1,6 +1,12 @@
 # Weather App
+<div style="display:grid;grid-template-column:30% 30% 30% >
 <img src="weather-app/images/profile1.png" width=300 height=300>
 <img src="weather-app/images/profile2.png" width=300 height=300>
+<img src="weather-app/images/profile3.png" width=300 height=300>
+<img src="weather-app/images/profile4.png" width=300 height=300>
+<img src="weather-app/images/profile5.png" width=300 height=300>
+<img src="weather-app/images/profile6.png" width=300 height=300>
+</div>
 
 ## Overview
 The Weather App is a simple web application that provides users with current weather information for a specific location. Users can enter the name of a city or location, and the app will retrieve and display the current weather conditions, including temperature, humidity, wind speed, and weather description.
@@ -15,7 +21,7 @@ The Weather App is a simple web application that provides users with current wea
 - CSS
 - JavaScript
 - rapid api
-- 
+
 ## Usage
 1. Clone or download the repository to your local machine.
 2. Open the `index.html` file in a web browser.

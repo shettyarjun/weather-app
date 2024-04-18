@@ -71,6 +71,7 @@ function displayweatherinfo(data) {
     card.append(winddisplay);
     card.append(emojidisplay);
 
+    changegradient(current.condition.text);
 
 }
 
@@ -118,4 +119,40 @@ function displaytheemoji(weather) {
     }
 
     return emoji;
+}
+
+function changegradient(weather) {
+    let gradient = '';
+    switch (weather) {
+        case 'Sunny':
+            gradient = `red,blue`;
+            break;
+        case 'Rain':
+            gradient = `darkblue,lightblue`;
+            break;
+        case 'Cloudy':
+            gradient = `lightgrey,white`;
+            break;
+        case 'Snow':
+            gradient = `orange,white`;
+            break;
+        case 'Fog':
+        case 'Mist':
+        case 'Haze':
+            gradient = `white,grey`;
+            break;
+        case 'Thunderstorm':
+            gradient = `yellow,black`;
+            break;
+        case 'Clear':
+            gradient = `lightblue,purple`;
+            break;
+        case 'Partly cloudy':
+            gradient = `blue,lightblue`;
+            break;
+        default:
+            gradient = `green,white`;
+            break;
+    }
+    card.style.background = `linear-gradient(180deg, ${gradient})`;
 }
