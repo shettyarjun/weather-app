@@ -1,11 +1,11 @@
 # Weather App
-<div style="display:grid;grid-template-column:30% 30% 30% >
+<div style="display:grid;grid-template-column:30% 30% 30%" >
 <img src="weather-app/images/profile1.png" width=300 height=300>
 <img src="weather-app/images/profile2.png" width=300 height=300>
-<img src="weather-app/images/profile3.png" width=300 height=300>
+<img src="weather-app/images/profile6.png" width=300 height=300>
 <img src="weather-app/images/profile4.png" width=300 height=300>
 <img src="weather-app/images/profile5.png" width=300 height=300>
-<img src="weather-app/images/profile6.png" width=300 height=300>
+<img src="weather-app/images/profile7.png" width=300 height=300>
 </div>
 
 ## Overview
